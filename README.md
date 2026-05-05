@@ -99,12 +99,35 @@ La esterilización por autoclave es un método que utiliza vapor de agua saturad
 
 ### d) Submenús del ventilador
 
-La máquina de anestesia de anestesia dispone de una interfaz de usuario con múltiples menús y submenús para configurar el ventilador. En el manual de servicio se mencionan los siguientes:
+El ventilador neumático del WATO EX-20 es un componente controlado por microprocesador que ofrece múltiples modos y parámetros ajustables, estos se controlan desde la interfaz de usuario donde se se puede acceder a cada uno de ellos, y que se describen a continuación:
 
+#### 1. Modos de ventilación:
 
+La ventilación  neumática es un aspecto fundamental en las máquinas de anestesia, pues es la encargada de garantizar las respiraciones de los pacientes cuando se encuentran en un determinado nivel de sedación, sus patologías pulmonares y esfuerzo respiratorio; dependiendo de la profundidad de dichos estados se requieren multitud de modos que se presentan a continuación:
 
+• VCV (Volume Control Ventilation): se entrega un volumen tidal preestablecido independiente de la presión, en donde se debe realizar un monitoreo constante de este último. En este modo puede llevarse a cabo asincronías entre el paciente y el ventilador e inclusive, se dificuta el intercambio gaseoso.
 
+<img width="361" height="243" alt="image" src="https://github.com/user-attachments/assets/b99dfd1e-06e0-44a5-b4bc-cd981df76af4" />
 
+_(Fig 5. Ventilación VCV.)_
+
+• PCV (Pressure Control Ventilation): se limita (controla) la presión inspiratoria, y el volumen resultante es dependiente de la presión y la complianza (capacidad de expansión) del paciente. En este modo hay un mejor intercambio gaseoso pero hay un alto riesgo de volutrauma si la distensibilidad mejora repentinamente.
+
+<img width="298" height="257" alt="image" src="https://github.com/user-attachments/assets/66e24c8a-1037-454f-8930-ef24f6a79a34" />
+
+_(Fig 6. Ventilación PCV.)_
+
+• PSV (Pressure Support Ventilation): en este modo, es el paciente quien dispara la inspiración, y el ventilador únicamente mantiene una presión de soporte para facilitar dichs inspiraciones.
+
+• SIMV (Synchronized Intermittent Mandatory Ventilation): este modo permite incluir los dos modos de ventilación, mandatorias con esontáneas, es decir, cumple el rol de establecer el patrón respiratorio pero con la capacidad de permitir al paciente de realizar respiraciones espontáneas.
+
+<img width="250" height="182" alt="image" src="https://github.com/user-attachments/assets/1bb71b56-2ead-4217-b655-9f57d579ecd3" />
+
+_(Fig 7. Ventilación SIMV.)_
+
+#### 2. Volumen corriente (TV) y presión límite (Plimit)
+
+Estos modos del ventilador permiten ajustar los parámetros con los que se trabajará en los modos de ventilación. 
 
 
 
