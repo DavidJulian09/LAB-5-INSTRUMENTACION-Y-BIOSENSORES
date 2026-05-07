@@ -158,17 +158,74 @@ _(Fig 9. Vaporizador conectado.) [Manual service]_
 
 #### 2. Válvula APL (Adjustable Pressure Limiting valve):
 
+La válvula APL se localiza en el sistema de respiración, específicamente en el circuito manual. Se puede identificar como un mando giratorio con una escala de presión (en cmH₂O) situado en la parte frontal del sistema de respiración, tal como se observa en la figura 10. La función de esta válvula es durante la ventilación manual, la válvula APL limita la presión máxima que alcanza el circuito cuando se aprieta la bolsa manual; permite ajustar un umbral de presión, por ejemplo de 0 a 75 cmH₂O, si la presión supera el valor fijado la válvula se abre liberando el exceso de gas al exterior o al sistema de evacuación de gases anestésicos. Gracias a lo anterior se protege los pulmones del paciente de presiones excesivas durante la ventilación manual.
 
-
+<img width="1204" height="1600" alt="image" src="https://github.com/user-attachments/assets/6325c000-4283-4967-9cfe-5f0d45398431" />
 
 _(Fig 10. Ubicación valvula APL.)_
 
 
+#### 3. Recipiente absorbente de CO₂ (CO₂ absorbent canister)
+
+El recipiente absorbente de CO₂ se encuentra dentro del sistema de respiración, en la parte inferior del circuito debajo del fuelle como se muestra en la figura 11; se accede a el girándolo. La función de este recipiente es contener la cal-sodada, la cual absorbe el dióxido de carbono (CO₂) del gas exhalado por el paciente; de esta forma, el gas puede ser reinhalado sin peligroso y a su vez conservando calor y hummedad, esta cal sodada se puede observar en la figura 3 de la sección II.c.
+
+<img width="1204" height="1600" alt="image" src="https://github.com/user-attachments/assets/4beca655-b90f-491c-a21e-2fe280562ad1" />
+
+_(Fig 11. Ubicación Recipiente absorbente de CO₂.)_
+
+#### 4. Fuelle:
+
+El fuelle forma parte del sistema de respiración y se aloja dentro de una carcasa transparente situada en la parte frontal del circuito (se puede observar en la figura 10), la cual se puede desmontar girando en sentido antihorario. este es el elemento que separa el gas impulsor del gas que respira el paciente, cuando  el ventilador envía gas impulsor hacia la carcasa del fuelle, este se comprime y empuja el gas anestésico contenido en su interior hacia el paciente (inspiración); durante la espiración, el fuelle se reexpande al permitir la salida del gas exhalado. Finalmente, cabe resaltar que el fuelle es de un material libre de latex y no alergénico, que puede manejar un volumen de 1500ml para el control adecuado de ventilación. 
 
 
 
+_(Fig 12. Ubicación fuelle.)_
 
 
+### b. Acción ante el mensaje “batería en uso”
+
+En el manual de servicio se describe que hacer en este caso en la sección 3.12 Power Failure Test; cuando la máquina está funcionando con alimentación de red (AC) y de repente se desconecta el cable de alimentación, la pantalla muestra el mensaje “Battery in Use” y el LED de AC se apaga, mientras que la máquina continúa funcionando con la batería interna, conforme a lo anterior el procedimiento de acción es:
+
+1. Verificar de inmediato la conexión del cable de alimentación a la red eléctrica y conectarlo nuevamente si se ha soltado.
+
+2. Tras reconectar la alimentación AC, el mensaje debe desaparecer y el LED de AC debe encenderse. Si la batería está descargada, la máquina podría apagarse si no se restablece la AC a tiempo.
+
+3. En caso de que la batería esté descargada y el paciente está conectado, se debe priorizar la seguridad del paciente, por tanto hay que asegurar una ventilación adecuada (manual o mecánica) mientras se restablece la alimentación principal.
+
+4. Una vez finalizada la cirugía o el uso, realizar una prueba de autonomía de la batería y, si es necesario, reemplazar la batería de litio (la lista de piezas reemplazables cada 3 años incluye la batería)
+
+### c. Frecuencia de reemplazo del recipiente absorbente de CO₂
+
+La vida util de este recipinete depende del flujo de gas, el número de pacientes y la concentración de CO₂ exhalado, sin embargo en la sección 4.1.1 del manual de servicio se proporciona indicaciones prácticas:
+
+• En la sección mencionada se listan los sellos del recipiente absorbente como el canister absorvente, que deben reemplazarse cada año para evitar posibles fugas. La cal sodada no se específica porque es un consumible de corta duración.
+
+• En las pruebas de fugas del sistema de respiración (secciones 3.7.2 y 3.7.3), se comprueba que el canister no tenga fugas. La vida útil del absorbente se determina por el cambio de color (indicador químico) que muestran muchas marcas comerciales: cuando el color cambia, por ejemplo de blanco a violeta, el absorbente está agotado.
+
+Ahora bien conforme a lo investigado en la práctica clínica, el absorvente de CO₂ se debe cambiar cada 8-12 horas de uso continuoo cuando el indicador de color muestre agotamiento. En entornos de baja frecuencia como quirófanos con pocas cirugías, se recomienda cambiarlo al menos cada 1‑2 semanas o antes si ha estado expuesto a la humedad.
+
+
+### d. Verificación fuga en el cilindro de alta presión
+
+Acorde a la sección 3.3.2 Cylinder High Pressure Leak Test, se deben tener ciertas precauciones previas: para el N₂O, después de la prueba se debe abrir el suministro de O₂, después se debe cerrar el interruptor principal de N₂O y abrir el flujómetro de N₂O para liberar el gas residual, finalmente esperar a que el manómetro de N₂O indique cero. Teniendo la precación explicada se debe seguir el siguiente procedimiento paso a paso:
+
+1. Asegurar que el interruptor general (system switch) esté en la posición ⭘ (apagado).
+
+2. Cerrar todas las válvulas de los cilindros, excepto la del cilindro que se va a probar.
+
+3. Abrir la válvula del cilindro que se está comprobando.
+
+4. Registrar la presión actual del cilindro (leer el manómetro de alta presión correspondiente).
+
+5. Cerrar la válvula del cilindro.
+
+6. Esperar un (1) minuto exacto.
+
+7. Registrar nuevamente la presión del cilindro tras ese minuto.
+
+Ahora bien el criterio para determinar una fuga, depende de la presión del gas impulsor, si este valor disminuye más de 5000 kPa (725 psi), hay fuga; de mismo modo, si la presión del gas no impulsor es menor de 690 kPa (100 psi) también significa fuga. Llegados a dichos casos se debe instalar una nueva junta del cilindro, de cambiarse y aún presentar la fuga se debe de revisar el circuito de alta presión.
+
+### e. Influencia del sensor de O₂ en la prueba del sistema de control de flujo
 
 
 
