@@ -18,7 +18,7 @@ Familiarizarnos con los componentes, funcionamiento y labores de mantenimiento d
 
 • Reconocer la relevancia de las labores de mantenimiento aplicadas a una máquina de anestesia.
 
-## II. ASPECTOS FUNDAMENTALES MÁQUINA DE ANESTESIA (PARTE A)
+## II. ASPECTOS FUNDAMENTALES WATO ES-20 (PARTE A)
 
 ### a) Tipos de anestesia aplicados durante una cirugía
 
@@ -101,7 +101,7 @@ La esterilización por autoclave es un método que utiliza vapor de agua saturad
 
 El ventilador neumático del WATO EX-20 es un componente controlado por microprocesador que ofrece múltiples modos y parámetros ajustables, estos se controlan desde la interfaz de usuario donde se se puede acceder a cada uno de ellos, y que se describen a continuación:
 
-#### 1. Modos de ventilación:
+#### 1. Menú de ventilación:
 
 La ventilación  neumática es un aspecto fundamental en las máquinas de anestesia, pues es la encargada de garantizar las respiraciones de los pacientes cuando se encuentran en un determinado nivel de sedación, sus patologías pulmonares y esfuerzo respiratorio; dependiendo de la profundidad de dichos estados se requieren multitud de modos que se presentan a continuación:
 
@@ -125,17 +125,43 @@ _(Fig 6. Ventilación PCV.)_
 
 _(Fig 7. Ventilación SIMV.)_
 
-#### 2. Volumen corriente (TV) y presión límite (Plimit)
+#### 2. Menús control volumen corriente (TV) y presión límite (Plimit):
 
-Estos modos del ventilador permiten ajustar los parámetros con los que se trabajará en los modos de ventilación. 
+Estos submenus del ventilador permiten ajustar los parámetros con los que se trabajará en los modos de ventilación. El modo de volumen corriente o tidal volume (TV), corresponde al volumen de gas que se introduce en los pulmones del paciente en cada respiración (en modo VCV o PCV), este parámetro permite tener un rango ajustable de entre 20 - 1500ml; en este ajuste se garantiza una ventilación alveolar adecuada, un volumen demasiado bajo produce hipoventilación y atelectasias; uno demasiado alto puede causar barotrauma o volutrauma.
+
+Respecto al control de la presión límite, corresponde al control de la presión máxima de la vía aérea (Paw) que el ventilador permite durante la inspiración. Si la presión supera este valor, se activa una alarma y se abre una válvula de seguridad para liberar presión; el equipo permite el ajuste de valores entre 10 – 80 cmH₂O, con el fin de proteger los pulmones del paciente de presiones dañinas (barotrauma)
+
+#### 3. Menús control frecuencia respiratoria, relación inspiración:espiración y pausa inspiratoria:
+
+• Frecuencia respiratoria: el equipo a su vez posee un menú para el ajuste del proceso respiratorio del paciente, el cual permite establecer el número de ciclo respiratorios por minuto (BPM), el cual permite establecer un rango entre 4-60BPM (en adultos) y hasta 100 BPM en neonatos. Este control a su vez nos permite determinar el volumen tidal, y define la ventilación minuto.
+
+• Relación inspiración:espiración: corresponde a la proporción entre la duración de la fase inspiratoria y la duración de la fase espiratoria, este valor se muestra como un cociente, ejemplo, 1:2 significa que la espiración dura el doble que la inspiración. La función de este menú es optimizar el intercambio gaseoso y evitar la retención de CO₂, Una relación I:E muy alta (inspiración larga) puede causar auto‑PEEP; muy baja (espiración muy larga) puede reducir la ventilación minuto. El rango de control es desde 1:4 (espiración muy larga) hasta 2:1 (inspiración invertida).
+
+• Pausa inspiratoria (TIP:TI): este como tal es un submenú dentro del menú del control del ventilación, más en específico de los modos PCV, PSV y SIMV; se encarga de dar un tiempo adicional sin flujo de gas al final de la inspiración, durante el cual la vía aérea permanece cerrada, este parámetro define la relación entre el tiempo de pausa y el tiempo inspiratorio total. Lo anterior permite facilitar la medición de la compliance estática y la eficacia del intercambio gaseoso en algunas patologías. Para su ajuste se entra al submenú TIP:TI y se cambia el valor de “OFF” a un porcentaje deseado (10% , 20% del tiempo inspiratorio).
+
+
+## III. IDENTIFICACIÓN DE COMPONENTES, PROCEDIMIENTOS Y MANTENIMIENTO WATO EX-20
+
+### a. Identificación y función de partes
+
+#### 1. Vaporizador: 
+
+Este elemento se monta sobre el múltiple del vaporizador situado en la parte superior frontal de la máquina, debajo de la cubierta; su función es la de convertir el agente anestésico líquido en vapor que se mezcla con el flujo de gases frescos (O₂, N₂O, aire) que proviene del sistema de suministro de forma precisa y controlada. Según el manual (página 2‑31), se indica que el colector de vaporizador integra una válvula antirretorno para evitar que el O₂ o los gases retornen al vaporizador, alterando la concentración suministrada.
+
+
+
+_(Fig 8. Ubicación vaporizador.)_
+
+<img width="217" height="131" alt="image" src="https://github.com/user-attachments/assets/72a4d887-6bf4-4d4a-b62e-0bc64fad6c1f" />
+
+_(Fig 9. Vaporizador conectado.) [Manual service]_
+
+#### 2. Válvula APL (Adjustable Pressure Limiting valve):
 
 
 
 
-
-
-
-
+_(Fig 10. Ubicación valvula APL.)_
 
 
 
