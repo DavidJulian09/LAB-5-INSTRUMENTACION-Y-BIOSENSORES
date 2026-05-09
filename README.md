@@ -20,7 +20,7 @@ Familiarizarnos con los componentes, funcionamiento y labores de mantenimiento d
 
 ## II. ASPECTOS FUNDAMENTALES WATO ES-20 (PARTE A)
 
-### a) Tipos de anestesia aplicados durante una cirugía
+### A) Tipos de anestesia aplicados durante una cirugía
 
 Los tipos de antesia se clasifican en tres categorías, según que tantto se desea afectar al sistema nervioso central y la zona del organismo afectada, los cuales son:
 
@@ -36,7 +36,7 @@ Para ese segundo tipo, se realiza un bloqueo reversible de la conducción nervio
 
 Esta anestesia es la eliminación temporal de la sensibilidad en una pequeña zona mediante infiltración de anestésico local, este tipo de anestesia no se puede controlar con el modelo que poseemos, aunque puede llegar a suministrar O₂ suplementario de ser requerido.
 
-### b) Gases trabajados por la máquina de anestesia
+### B) Gases trabajados por la máquina de anestesia
 
 Los gases medicinales con los que se trabaja, y que además se incorporan mediante un sistema de alta presión, son descritos en el manual de servivicio, y son especificados en las secciones 2.1.6.1 "Gas Supplies" y 2.1.6.2 "Anesthetic Gas Delivery System", los cuales son:
 
@@ -60,7 +60,7 @@ Cabe mencionar que los gases anteriores necesitan de un sistema de alta presión
 
 Además de los gases ya mencionados, la máquina incorpora agentes anestésicos volátiles (sevoflurano, isoflurano, desflurano...) que se evaporan en el vaporizador, estos que se evaporan en el vaporizador.
 
-### c) Sistema de respiración y su función
+### C) Sistema de respiración y su función
 
 El sistema de respiración se describe en la sección 2.1.6.4 del manual de servivicio, indicando: "El sistema respiratorio proporciona un circuito cerrado para el gas anestésico. El CO₂ presente en el aire espirado del paciente puede ser inhalado durante la fase de inspiración para mantener la temperatura y la humedad del aire espirado".
 
@@ -97,7 +97,7 @@ La esterilización por autoclave es un método que utiliza vapor de agua saturad
 
 • Cuerpo del circuito adaptador (circuit adapter), excepto componentes eléctricos
 
-### d) Submenús del ventilador
+### D) Submenús del ventilador
 
 El ventilador neumático del WATO EX-20 es un componente controlado por microprocesador que ofrece múltiples modos y parámetros ajustables, estos se controlan desde la interfaz de usuario donde se se puede acceder a cada uno de ellos, y que se describen a continuación:
 
@@ -142,13 +142,13 @@ Respecto al control de la presión límite, corresponde al control de la presió
 
 ## III. IDENTIFICACIÓN DE COMPONENTES, PROCEDIMIENTOS Y MANTENIMIENTO WATO EX-20
 
-### a. Identificación y función de partes
+### A) Identificación y función de partes
 
 #### 1. Vaporizador: 
 
 Este elemento se monta sobre el múltiple del vaporizador situado en la parte superior frontal de la máquina, debajo de la cubierta; su función es la de convertir el agente anestésico líquido en vapor que se mezcla con el flujo de gases frescos (O₂, N₂O, aire) que proviene del sistema de suministro de forma precisa y controlada. Según el manual (página 2‑31), se indica que el colector de vaporizador integra una válvula antirretorno para evitar que el O₂ o los gases retornen al vaporizador, alterando la concentración suministrada.
 
-
+<img width="1204" height="1600" alt="image" src="https://github.com/user-attachments/assets/711e85a6-fd87-4203-9824-d3586835e900" />
 
 _(Fig 8. Ubicación vaporizador.)_
 
@@ -177,12 +177,12 @@ _(Fig 11. Ubicación Recipiente absorbente de CO₂.)_
 
 El fuelle forma parte del sistema de respiración y se aloja dentro de una carcasa transparente situada en la parte frontal del circuito (se puede observar en la figura 10), la cual se puede desmontar girando en sentido antihorario. este es el elemento que separa el gas impulsor del gas que respira el paciente, cuando  el ventilador envía gas impulsor hacia la carcasa del fuelle, este se comprime y empuja el gas anestésico contenido en su interior hacia el paciente (inspiración); durante la espiración, el fuelle se reexpande al permitir la salida del gas exhalado. Finalmente, cabe resaltar que el fuelle es de un material libre de latex y no alergénico, que puede manejar un volumen de 1500ml para el control adecuado de ventilación. 
 
-
+<img width="1204" height="1600" alt="image" src="https://github.com/user-attachments/assets/5ccff00f-cdf5-47e5-8be2-fb3a21bd9d57" />
 
 _(Fig 12. Ubicación fuelle.)_
 
 
-### b. Acción ante el mensaje “batería en uso”
+### B) Acción ante el mensaje “batería en uso”
 
 En el manual de servicio se describe que hacer en este caso en la sección 3.12 Power Failure Test; cuando la máquina está funcionando con alimentación de red (AC) y de repente se desconecta el cable de alimentación, la pantalla muestra el mensaje “Battery in Use” y el LED de AC se apaga, mientras que la máquina continúa funcionando con la batería interna, conforme a lo anterior el procedimiento de acción es:
 
@@ -194,7 +194,7 @@ En el manual de servicio se describe que hacer en este caso en la sección 3.12 
 
 4. Una vez finalizada la cirugía o el uso, realizar una prueba de autonomía de la batería y, si es necesario, reemplazar la batería de litio (la lista de piezas reemplazables cada 3 años incluye la batería)
 
-### c. Frecuencia de reemplazo del recipiente absorbente de CO₂
+### C) Frecuencia de reemplazo del recipiente absorbente de CO₂
 
 La vida util de este recipinete depende del flujo de gas, el número de pacientes y la concentración de CO₂ exhalado, sin embargo en la sección 4.1.1 del manual de servicio se proporciona indicaciones prácticas:
 
@@ -205,7 +205,7 @@ La vida util de este recipinete depende del flujo de gas, el número de paciente
 Ahora bien conforme a lo investigado en la práctica clínica, el absorvente de CO₂ se debe cambiar cada 8-12 horas de uso continuoo cuando el indicador de color muestre agotamiento. En entornos de baja frecuencia como quirófanos con pocas cirugías, se recomienda cambiarlo al menos cada 1‑2 semanas o antes si ha estado expuesto a la humedad.
 
 
-### d. Verificación fuga en el cilindro de alta presión
+### D) Verificación fuga en el cilindro de alta presión
 
 Acorde a la sección 3.3.2 Cylinder High Pressure Leak Test, se deben tener ciertas precauciones previas: para el N₂O, después de la prueba se debe abrir el suministro de O₂, después se debe cerrar el interruptor principal de N₂O y abrir el flujómetro de N₂O para liberar el gas residual, finalmente esperar a que el manómetro de N₂O indique cero. Teniendo la precación explicada se debe seguir el siguiente procedimiento paso a paso:
 
@@ -225,7 +225,35 @@ Acorde a la sección 3.3.2 Cylinder High Pressure Leak Test, se deben tener cier
 
 Ahora bien el criterio para determinar una fuga, depende de la presión del gas impulsor, si este valor disminuye más de 5000 kPa (725 psi), hay fuga; de mismo modo, si la presión del gas no impulsor es menor de 690 kPa (100 psi) también significa fuga. Llegados a dichos casos se debe instalar una nueva junta del cilindro, de cambiarse y aún presentar la fuga se debe de revisar el circuito de alta presión.
 
-### e. Influencia del sensor de O₂ en la prueba del sistema de control de flujo
+### E) Influencia del sensor de O₂ en la prueba del sistema de control de flujo
+
+El sensor de O₂ influye notablemente, pues permite realizar una comprobación de la concentración real de oxígeno (FiO₂) y requiere que el sensor esté previamente calibrado. Para demostrar la impor tancia del mismo en el manual de servicio en la sección 3.4.1 y 3.4.2 se muestra una comparación cuando se uso, o no, el sensor.
+
+#### 1. Prueba sin sensor de O₂:
+
+Para esta modalidad se debe verificar el funcionamiento mecánico que impide que el flujo de O₂ sea peligrosamente bajo cuando aumenta el flujo de N₂O. Para ello se conecta el suministro de gases y se abren sus válvulas por completo, posteriormente se deben llevar los flujos a mitad de escala y comprobar que los flotadores de los tubos de flujo se mueven suavemente, estos porcesos se deben verificar para la medición del flujo de O₂ y N₂O; finalmente se debe probar que si se disminuye el el flujo de O₂, el flujo de N₂O debe disminuir proporcionalmente. Aunque se puede medir y controlar el flujo de e O₂, no se sabe realmente la concentración real del mismo, olo se comprueba que los flujos mecánicos mantengan una relación mínima.
+
+#### 2. Prueba con sensor de O₂:
+
+Para este método se conserva el objetivo anterior, pero adicionando la verificación que la concentración de oxígeno medida nunca sea inferior al 25% durante toda la prueba, es decir, se debe llevar a cabo el mismo procedimiento descrito con anterioridad, pero manteniendo un control estricto de de la concentración de O₂. En llegado caso de que la concentración baje del 25%, la prueba falla y se debe revisar el sistema de enlace o el sensor. La principal ventaja de esta prueba radica en que con sensor de O₂ se detecta fallos en la mezcla real de gases que no serían detectados solo con los flujos.
+
+
+### F) Importancia  del sistema de presión negativa
+
+El sistema de presión negativa (succión) tiene como propósito aspirar fluidos corporales, como las secreciones, sangre, vómito, y otros de la viía aérea del paciente (generalmente de la faringe o tráquea) durante la cirugía, para prevenir la obstrucción, la broncoaspiración y la neumonía durante los procedimientos; este sistema está integrado directamente en la máquina de anestesia. Este elemento es fundamental cuando se entiende que durante a anestesia, el paciente no puede toser ni expulsar secreciones voluntariamente, lo que aumenta el riesgo de la obstrucción de la vía aérea, por tanto no es un elemento opcional, sino que es un requisito de seguridad obligatorio
+
+Este elemennto está compuesto principalmente por un generador de vacio, por medio del flujo de gases impulsores; un reguldor de presión negativa, que permite controlar el nivel de vacio requerido; y finalmente un frasco colector para fluidos aspirados y un filtro.
+
+
+## IV. ANÁLISIS DE FALLAS Y PREGUNTAS DE DISCUSIÓN WATO EX-20
+
+### A) Fallas que pueden presentarse en el funcionamiento de los subsistemas y sus causas
+
+#### 1. Fallas subsistema de suministro de gases
+
+• Fugas en las conexiones de suministro: 
+
+
 
 
 
