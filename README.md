@@ -4,7 +4,7 @@
 
 En el presente documento, se hablará sobre las máquinas de anestesia, las cuales su función principal es mantener las funciones vitales del paciente en un estado equilibrado y estable de inconsciencia controlada, cumpiendo las labores de proporcionar oxígeno y ventilación alpaciente, además de mezclar diferentes gases anestésicos en las dosis adecuadas. A pesar de lo fundamental de sus funciones, y de los posibles riesgos que puede simbolizar al paciente un error en la máquina y del operador, no se trata de un dispositivo complejo u hostil, sino se trata de un conjunto de tuberías y sistemas de bombeo quesuministran una mezcla de gases de forma cuidadosamente controlada y de fácil uso y mantenimiento bajo la capacitación adecuada. [1]
 
-Con esta práctica, nosotros como ingenieros biomédicos, podremos familiarizarnos con uno de los equipos de mayor aplicación en entornos quirúrgicos, desmitificando su aparente complejidad y reconociendo la importancia de cada uno de sus subsistemas. Todo lo anterior mediante el desarrollo de los siguientes objetivos:
+Con esta práctica, nosotros como ingenieros biomédicos, podremos familiarizarnos con uno de los equipos de mayor aplicación en entornos quirúrgicos, desmitificando su aparente complejidad y reconociendo la importancia de cada uno de sus subsistemas. Todo lo anterior mediante el desarrollo de los siguientes objetivos [1]:
 
 ### Objetivo general:
 
@@ -18,11 +18,11 @@ Familiarizarnos con los componentes, funcionamiento y labores de mantenimiento d
 
 • Reconocer la relevancia de las labores de mantenimiento aplicadas a una máquina de anestesia.
 
-## II. ASPECTOS FUNDAMENTALES WATO ES-20 (PARTE A)
+## II. ASPECTOS FUNDAMENTALES WATO EX-20 (PARTE A)
 
 ### A) Tipos de anestesia aplicados durante una cirugía
 
-Los tipos de antesia se clasifican en tres categorías, según que tantto se desea afectar al sistema nervioso central y la zona del organismo afectada, los cuales son:
+Los tipos de antesia se clasifican en tres categorías, según que tantto se desea afectar al sistema nervioso central y la zona del organismo afectada, los cuales son [2]:
 
 #### 1. Anestesia general:
 
@@ -103,19 +103,19 @@ El ventilador neumático del WATO EX-20 es un componente controlado por micropro
 
 #### 1. Menú de ventilación:
 
-La ventilación  neumática es un aspecto fundamental en las máquinas de anestesia, pues es la encargada de garantizar las respiraciones de los pacientes cuando se encuentran en un determinado nivel de sedación, sus patologías pulmonares y esfuerzo respiratorio; dependiendo de la profundidad de dichos estados se requieren multitud de modos que se presentan a continuación:
+La ventilación  neumática es un aspecto fundamental en las máquinas de anestesia, pues es la encargada de garantizar las respiraciones de los pacientes cuando se encuentran en un determinado nivel de sedación, sus patologías pulmonares y esfuerzo respiratorio; dependiendo de la profundidad de dichos estados se requieren multitud de modos que se presentan a continuación [3]:
 
 • VCV (Volume Control Ventilation): se entrega un volumen tidal preestablecido independiente de la presión, en donde se debe realizar un monitoreo constante de este último. En este modo puede llevarse a cabo asincronías entre el paciente y el ventilador e inclusive, se dificuta el intercambio gaseoso.
 
 <img width="361" height="243" alt="image" src="https://github.com/user-attachments/assets/b99dfd1e-06e0-44a5-b4bc-cd981df76af4" />
 
-_(Fig 5. Ventilación VCV.)_
+_(Fig 5. Ventilación VCV.) [3]_
 
 • PCV (Pressure Control Ventilation): se limita (controla) la presión inspiratoria, y el volumen resultante es dependiente de la presión y la complianza (capacidad de expansión) del paciente. En este modo hay un mejor intercambio gaseoso pero hay un alto riesgo de volutrauma si la distensibilidad mejora repentinamente.
 
 <img width="298" height="257" alt="image" src="https://github.com/user-attachments/assets/66e24c8a-1037-454f-8930-ef24f6a79a34" />
 
-_(Fig 6. Ventilación PCV.)_
+_(Fig 6. Ventilación PCV.) [3]_
 
 • PSV (Pressure Support Ventilation): en este modo, es el paciente quien dispara la inspiración, y el ventilador únicamente mantiene una presión de soporte para facilitar dichs inspiraciones.
 
@@ -123,7 +123,7 @@ _(Fig 6. Ventilación PCV.)_
 
 <img width="250" height="182" alt="image" src="https://github.com/user-attachments/assets/1bb71b56-2ead-4217-b655-9f57d579ecd3" />
 
-_(Fig 7. Ventilación SIMV.)_
+_(Fig 7. Ventilación SIMV.) [3]_
 
 #### 2. Menús control volumen corriente (TV) y presión límite (Plimit):
 
@@ -251,7 +251,118 @@ Este elemennto está compuesto principalmente por un generador de vacio, por med
 
 #### 1. Fallas subsistema de suministro de gases
 
-• Fugas en las conexiones de suministro: 
+• Fugas en las conexiones de suministro pueden ocurrir a partir de un tubo de suministro dañado o sello en la conexión deteriorado, también a partir de la propia entrada del suministro.
+
+• El manómetro de presión de red puede muestrar lecturas inexactas o no muestra nada a causa del mal estado del mismo, o una obstrucción en la entrada del suministro.
+
+• No ocurre la alarma “O₂ Supply Failure” cuando la presión de O₂ es baja, o ocurre cuando la presión es normal, se debe a que el interruptor de presión  de la entrada de O₂ está mal ajustado.
+
+#### 2. Fallas subsistema de administración de gases anestésicos
+
+• Fuga en el conjunto del pulsador de O₂ u de otros gases puede deberse a un error en el sellado o po el vaporizador sin ajustar correctamente.
+
+• El flotador del flujómetro indica valores incorrectos o no se mueve puede deberse a un flujómetro dañado.
+
+• El sistema de corte O₂‑N₂O no funciona si las válvulas de dichos gases se encuentran en mal estado o directamente dañadas.
+
+#### 3. Fallas subsistema del circuito del paciente
+
+• La fugas en el circuito del paciente son las que más sujetos a fallas están pues depende de si el canoster se encuentra en buen estado o bien instalado, del estado del sello del brazo de la bolsa manual, del frasco colector de agua, de la carcasa y sellos del fuelle, de las válvulas de respiración, de los sensores de O₂ o inclusive por los propios tubos de respiración.
+
+• Errores en las mediciones de concentración de oxígeno se pueden deber a agua acumulada en los sensores, un error en la calibración o en el estado de los mismos.
+
+• La onda de flujo se muestra anormal, a causa de errores en los sensores y controladores de flujo, como una fuga en la línea de muestreo de presión del sensor de flujo.
+
+#### 4. Fallas subsistema neumático del ventilador
+
+• La falla más común es un volumen tidal inexacto, que puede deberse a errores en el sensor de flujo, fugas en el sistema de respiración o en la línea de muestreo de presión del sensor de flujo, en los sensores de presión en la placa monitora defectuoso, un límite de presión demasiado bajo, provocando espiración anticipada, entre otros.
+
+• El ventilador puede no funcionar correctamente después de una prueba de fugas, ya que la La válvula de seguridad no es controlable por la placa auxiliar.
+
+#### 5. Fallas subsistema eléctrico y de alimentación
+
+• Durante la operación, la pantalla y el LED de CA se apagan repentinamente y el ventilador no arranca, lo anterior puede deberse a que la alimentación de CA no está conectada correctamente y la batería interna es insuficiente.
+
+• Al encender, la pantalla se ilumina momentáneamente con destello y luego se normaliza, y se produce una alarma de fallo de comunicación con la placa de potencia; se debe a que el Software de la placa de potencia dañado y se debe reiniciar.
+
+• Si la máquina no arranca puede deberse a un cable del interruptor general suelto, un fusible fundido, el Software de placa de potencia está dañado, el Hardware de la placa de potencia es defectuoso o el interruptor general  se encuentra en mal estado.
+
+• No sale gas por la válvula en modo ventilación mecánica, se debe a un interruptor Bag/vent defectuoso o ACGO activado, también por una válvula que no puede abrirse.
+
+
+### B) Orden de los subsistemas en función del número de fallas asociadas 
+
+1. Sistema de respiración: con más de 20 causas de fuga más fallas de sensores (flujo, O₂, presión) es el subsistema con mayor número de entradas en la tabla y en las pruebas de fugas según el capítulo 5 del manual de servicio.
+
+2. Subsistema eléctrico y de potencia:  con 12 fallas que pueden deberse a problemas de alimentación, pantalla, botones, ventilador y conexiones de red.
+
+3. Suministro de gases y gas impulsor: aproximadamente 10 fallas, donde se incluyen problemas con manómetros, interruptores de presión, fugas en conexiones y reguladores.
+
+4. Sistema de administración de gases anestésicos: tiene igual número de fallas que el sistema anterior, por fugas de en pulsador O₂ flush, interruptor general, rotámetros y válvula de corte O₂‑N₂O.
+
+5. Sistema de ventilación: con 8 fallas que principalmente son e volumen tidal inexacto y apertura de válvulas.
+
+6. Sensor de O₂ y calibración: específicamente con 5 fallas, que incluyen errores de calibración, conexión y desviaciones.
+
+
+### C) ¿Qué tipos de anestésicos son los más usados en cirugía?
+
+la anestesia se utiliza depediendo de su uso, y este uso depende de dos categorías, anestésicos intravenosos e inhalatorios, su selección depende del tipo de cirugía, la duración, el estado del paciente y la necesidad de relajación muscular o analgesia adicional; a partir de lo annterior se describen los anestésicos más usados de cada categoría [4]:
+
+#### 1. Anestésicos intravenosos
+
+• Propofol: es sin duda alguna el más usado en la actualidad para inducción y para sedación en procedimientos ambulatorios, ya que permite una recuperación rápida y suave con efecto antiemético, es decir, de aliviar las nauceas.
+
+• Etomidato: se usa en pacientes con inestabilidad hemodinámica o shock, se caracteriza por tener una mínima depresión cardiovascular.
+
+• Ketamina: se usa en procedimientos dolorosos, asmáticos, o en entornos con recursos limitados; pues posee una analgesia potente, manteniendo reflejos protectores y frecuencia cardíaca.
+
+• Tiopental: anteriormente era el más usado, pero fue reemplazado por el propofol, aunque aún se usa en ciertos procedimientos de neurocirugía por sus características barbitúricas, es decir, que es depresor del sistema nervioso central.
+
+#### 2. Anestésicos inhalatrios
+
+• Sevoflurano: de la categoría de las anestesias inhalatorias es el más usado debido a su baja solubilidad sanguínea, no es irritante en vías respiratorias, y posee inducción y recuperación rápidas; es ideal para pacientes de todas las edades por las carecterísticas anteriores, sin embargo, puede generar compuestos nefrotóxicos al reaccionar con el absorbente de CO₂ seco.
+
+• Isoflurano: es menos soluble que el sevoflurano y puede provocar cierto grado de depresión miocárdica, sin embargo es muy estable, de bajo costo y usado en cirugías largas; a pesar de ello posee una recuperación más enta que sevoflurano, adicionalmente puede causar taquicardia.
+
+• Desflurano: de todos es el que menos solubilidad tiene, y con una recuperación extremadamente rápida, destaca en tener un excelente control de la profundidad anestésica aunque requiere de un vaporizador calentado especial y es irritante para las vias inhalatorias.
+
+
+### D) ¿Qué diferencias plantea el modelo EX‑35 con respecto al EX‑20?
+
+El Mindray WATO EX‑35 es una evolución del WATO EX‑20, con mejoras en capacidades de ventilación, monitorización, tamaño de pantalla y flexibilidad del sistema de respiración. Aunque el manual de servicio comparte muchos componentes, las principales diferencias son [5]:
+
+• Pantalla más grande y curvas: el EX‑35 permite visualizar simultáneamente dos curvas (presión, flujo, volumen) y un bucle, lo que facilita la detección de asincronías y cambios en la mecánica pulmonar.
+
+• Modos de ventilación avanzados: el EX‑35 incluye PCV‑VG (Pressure Control – Volume Guaranteed), que combina las ventajas del control por presión con la garantía de un volumen tidal mínimo, muy útil en pacientes con compliance variable. También incorpora SIMV‑PRVC, que regula la presión para mantener el volumen tidal en los ciclos mandatorios.
+
+• Mayor capacidad de cilindros: el EX‑35 cuenta con cuatro horquillas que permite usar dos botellas de O₂ alternas, evitando cambios urgentes durante la cirugía, en cambio el EX-20 únicamente cuenta con 2 horquillas para cilindros (O₂ y N₂O o Aire).
+
+• Sistema de respiración mejorado: el EX‑35 tiene un canister de CO₂ de mayor tamaño, de hasta 2L en comparación al de 1,5L del EX‑20, lo que prolonga la duración del absorbente; además, los sensores de flujo son de tipo de hilo caliente, más precisos y con menor caída de presión.
+
+• Batería interna: el EX-20 posee una utonomiía de entre 30 a 40 minutos, en comparación del EX-35 que posee una capacidad para desenvolverse durante 90 minutos, sin contar que posee una opción de segunda batería.
+
+
+## V. CONCLUSIONES
+
+Finalizando este laboratorio, se ocalizaron y describieron componentes como el vaporizador, la válvula APL, el recipiente absorbente de CO₂, el fuelle, el sistema de respiración y el ventilador, con base en el manual de servicio y la observación directa; además se nalizaron los submenús del ventilador (VCV, PCV, PSV, SIMV, etc.), las funciones de la válvula APL, el sistema de enlace O₂‑N₂O y el sistema de presión negativa, comprendiendo su integración neumática y electrónica.
+
+El estudio de la máquina de anestesia WATO EX‑20 ha proporcionado una visión de sus subsistemas, modos de operación, fallas frecuentes y procedimientos de verificación. Finalmente, se ha comprendido la importancia crítica del mantenimiento preventivo y de las pruebas de seguridad, especialmente las relacionadas con fugas y concentración de O₂, para prevenir eventos adversos; este conocimiento constituye una base sólida para futuras actividades de servicio técnico, gestión de equipos biomédicos y diseño de sistemas de anestesia seguros.
+
+
+## VI. REFERENCIAS
+
+[1] Alejandra Cárdenas, “Reconocimiento de partes y funcionamiento de una máquina de anestesia,” Laboratorio de Instrumentación Biomédica y Biosensores, UMNG, 2025.
+
+[2] Shenzhen Mindray Bio-Medical Electronics Co., Ltd., "WATO EX-20/30/35 Anesthesia Machine Service Manual", Rev. 6.0, Shenzhen, China, Nov. 2012.
+
+[3] Erick Arguello, "Instrumentación Biomédica y Biosensores, Clase 10", UMNG, 2026.
+
+[4] R. D. Miller, L. I. Eriksson, L. A. Fleisher, J. P. Wiener-Kronish, y W. L. Young, Eds., Miller's Anesthesia, 8th ed. Philadelphia, PA, USA: Elsevier Saunders, 2015.
+
+[5] Mindray Medical International Limited, WATO EX‑35 Anesthesia System – Product Brochure. Shenzhen, China: Mindray, 2019.
+
+
 
 
 
